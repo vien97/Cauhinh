@@ -39,10 +39,6 @@ Ad-Block = reject
 Ad-GIF = reject-tinygif
 Proxy01 = https,adc-us.com,443,username = 用户名,password = 密码
 Proxy02 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
-Proxy03 = socks5, abc-cn.com, 443, username = 用户名, password = 密码
-Proxy04 = vmess, abc-cn.com, 443, username = 用户名, tfo=true
-Snell = snell, abc-cn.com, 443, psk=密码, obfs=tls, obfs-host=itunes.apple.com, version=4, reuse=true, tfo=true
-
 [Proxy Group]
 AdBlock = select, Ad-GIF, Ad-Block, Ad-Pass
 Proxy = select, Auto, Scene, Speed, Warp+, no-alert=0, hidden=0
