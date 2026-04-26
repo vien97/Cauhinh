@@ -1,6 +1,4 @@
->>@OutlineVpnOfficial::DE=ss,57.129.94.79,11206,encrypt-method=chacha20-ietf-poly1305,password="70c455c9f19aa3a5",udp-relay=false
-001->>@oneclickvpnkeys::DE=ss,57.129.95.45,11201,encrypt-method=chacha20-ietf-poly1305,password="6675cbf62d6a3a4f",udp-relay=false
-001->>@oneclickvpnkeys::FR=ss,38.242.222.183,11201,encrypt-method=chacha20-ietf-poly1305,password="52671647af0cffa0",udp-relay=false
+>>@oneclickvpnkeys::FR=ss,38.242.222.183,11201,encrypt-method=chacha20-ietf-poly1305,password="52671647af0cffa0",udp-relay=false
 001->>@configshub2::GB=ss,51.75.168.50,13030,encrypt-method=chacha20-ietf-poly1305,password="6c815bb84c781da5",udp-relay=false
 001->>@configshub2::TW=ss,111.250.4.195,50099,encrypt-method=chacha20-ietf-poly1305,password="7b56aeaa-8e2d-4bdf-b1d7-233ecca15f56",udp-relay=false
 001->>@v2ray_configs_pool::NL=ss,193.29.139.206,8080,encrypt-method=chacha20-ietf-poly1305,password="4a2rfixophdjffa8KVA4Aa",udp-relay=false
