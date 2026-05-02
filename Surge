@@ -37,7 +37,6 @@ client-proxy-name = Snell
 Ad-Pass = direct
 Ad-Block = reject
 Ad-GIF = reject-tinygif
-
 ; === Singapore ===
 Singapore SS 01 = ss, 38.89.142.56, 990, encrypt-method=chacha20-ietf-poly1305, password=ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, udp-relay=false
 Singapore SS 02 = ss, 194.233.94.119, 80, encrypt-method=aes-256-gcm, password=8t2xeemUtyui4zAv, udp-relay=false
