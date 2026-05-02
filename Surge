@@ -157,8 +157,6 @@ USER-AGENT,geod*,DIRECT
 USER-AGENT,App%20Store*,DIRECT
 USER-AGENT,MacAppStore*,DIRECT
 USER-AGENT,FBiOSSDK*,REJECT
-USER-AGENT,%E8%BD%AF%E4%BB%B6%E6%9B%B4%E6%96%B0*,DIRECT
-DOMAIN,ocsp2.apple.com,Proxy
 DOMAIN,ocsp.apple.com,Proxy
 DOMAIN,apps.apple.com,Proxy
 DOMAIN,ip.bjango.com,Proxy
