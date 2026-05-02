@@ -37,17 +37,117 @@ client-proxy-name = Snell
 Ad-Pass = direct
 Ad-Block = reject
 Ad-GIF = reject-tinygif
-Proxy01 = https,adc-us.com,443,username = 用户名,password = 密码
-Proxy02 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
+
+; === Singapore ===
+Singapore SS 01 = ss, 38.89.142.56, 990, encrypt-method=chacha20-ietf-poly1305, password=ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, udp-relay=false
+Singapore SS 02 = ss, 194.233.94.119, 80, encrypt-method=aes-256-gcm, password=8t2xeemUtyui4zAv, udp-relay=false
+
+; === Japan ===
+Japan SS 01 = ss, 149.22.87.204, 443, encrypt-method=aes-128-gcm, password=shadowsocks, udp-relay=false
+Japan SS 02 = ss, 185.141.219.56, 30312, encrypt-method=aes-256-gcm, password=99394cfebe6c0906, udp-relay=false
+Japan TROJAN 03 = trojan, jp2-8sb.6121999.dpdns.org, 24534, password=e136d465-0558-43b9-b50c-b1f45d4cb2c2, tls=true, sni=jp2-8sb.6121999.dpdns.org
+
+; === US ===
+US SS 01 = ss, 173.234.29.2, 990, encrypt-method=chacha20-ietf-poly1305, password=ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, udp-relay=false
+US SS 02 = ss, 108.181.57.93, 8388, encrypt-method=chacha20-ietf-poly1305, password=RSo52SbxW40r, udp-relay=false
+US SS 03 = ss, 37.19.198.236, 443, encrypt-method=aes-128-gcm, password=shadowsocks, udp-relay=false
+US SS 04 = ss, 185.111.156.33, 80, encrypt-method=aes-256-gcm, password=5mCH4624QflO1cFR, udp-relay=false
+US SS 05 = ss, 154.53.60.212, 80, encrypt-method=aes-256-gcm, password=ZfbPFDdeBj0B1Txs, udp-relay=false
+US SS 06 = ss, 62.146.171.57, 443, encrypt-method=aes-256-gcm, password=jd9FR12wprKPNJHg, udp-relay=false
+US TROJAN 07 = trojan, 172.64.147.209, 443, password=22367c45-f6c4-4ca8-8d52-d9787d7bbe91, ws=true, ws-path=/, ws-headers=Host:cm22-bgphhh.pages.dev, tls=true, sni=cm22-bgphhh.pages.dev, skip-cert-verify=true
+US TROJAN 08 = trojan, 104.18.12.149, 443, password=22367c45-f6c4-4ca8-8d52-d9787d7bbe91, ws=true, ws-path=/, ws-headers=Host:cm22-bgphhh.pages.dev, tls=true, sni=cm22-bgphhh.pages.dev, skip-cert-verify=true
+US TROJAN 09 = trojan, 104.18.41.190, 2087, password=22367c45-f6c4-4ca8-8d52-d9787d7bbe91, ws=true, ws-path=/, ws-headers=Host:cm22-bgphhh.pages.dev, tls=true, sni=cm22-bgphhh.pages.dev
+US TROJAN 10 = trojan, 188.114.98.0, 443, password=1710442808, ws=true, ws-path=/, ws-headers=Host:subb.nrshop198.workers.dev, tls=true, sni=subb.nrshop198.workers.dev, skip-cert-verify=true
+US VMESS 11 = vmess, 10.a400.top, 44742, username=691ebfe7-756a-4b7d-836a-f292ef3b2146, vmess-aead=true, ws=true, ws-path=/, ws-headers=Host:10.a400.top, tls=true, sni=10.a400.top
+US VMESS 12 = vmess, 82.198.246.37, 180, username=d13fc2f5-3e05-4795-81eb-44143a09e552, vmess-aead=true
+US VMESS 13 = vmess, 82.198.246.9, 180, username=d13fc2f5-3e05-4795-81eb-44143a09e552, vmess-aead=true
+
+; === Netherlands ===
+Netherlands SS 01 = ss, 193.29.139.206, 8080, encrypt-method=chacha20-ietf-poly1305, password=4a2rfixophdjffa8KVA4Aa, udp-relay=false
+Netherlands SS 02 = ss, 193.29.139.217, 8080, encrypt-method=chacha20-ietf-poly1305, password=4a2rfixophdjffa8KVA4Aa, udp-relay=false
+Netherlands SS 03 = ss, 193.29.139.157, 8080, encrypt-method=chacha20-ietf-poly1305, password=4a2rfixophdjffa8KVA4Aa, udp-relay=false
+Netherlands SS 04 = ss, 193.29.139.143, 8080, encrypt-method=chacha20-ietf-poly1305, password=1RWwXhwfAB5gAEozU4G2Pg, udp-relay=false
+Netherlands SS 05 = ss, 213.109.147.242, 62685, encrypt-method=chacha20-ietf-poly1305, password=VpKABcOpNNA0l5G2AVOmw8, udp-relay=false
+Netherlands SS 06 = ss, 193.29.139.199, 8080, encrypt-method=chacha20-ietf-poly1305, password=QCXDxuDlTTMD7jtgHUjIoj, udp-relay=false
+Netherlands SS 07 = ss, 193.29.139.227, 8080, encrypt-method=chacha20-ietf-poly1305, password=QCXDxuDlTTMD7jtgHUjIoj, udp-relay=false
+Netherlands SS 08 = ss, 193.29.139.179, 8080, encrypt-method=chacha20-ietf-poly1305, password=cvII85TrW6n0OGyfpHVS1u, udp-relay=false
+Netherlands SS 09 = ss, 82.38.31.184, 8080, encrypt-method=chacha20-ietf-poly1305, password=k1dBOmOB4oqi7Ump37a1bQ, udp-relay=false
+Netherlands SS 10 = ss, 82.38.31.190, 8080, encrypt-method=chacha20-ietf-poly1305, password=k1dBOmOB4oqi7Ump37a1bQ, udp-relay=false
+Netherlands SS 11 = ss, 82.38.31.191, 8080, encrypt-method=chacha20-ietf-poly1305, password=k1dBOmOB4oqi7Ump37a1bQ, udp-relay=false
+Netherlands SS 12 = ss, 82.38.31.194, 8080, encrypt-method=chacha20-ietf-poly1305, password=k1dBOmOB4oqi7Ump37a1bQ, udp-relay=false
+Netherlands SS 13 = ss, 82.38.31.199, 8080, encrypt-method=chacha20-ietf-poly1305, password=k1dBOmOB4oqi7Ump37a1bQ, udp-relay=false
+Netherlands SS 14 = ss, 82.38.31.202, 8080, encrypt-method=chacha20-ietf-poly1305, password=k1dBOmOB4oqi7Ump37a1bQ, udp-relay=false
+Netherlands SS 15 = ss, 82.38.31.205, 8080, encrypt-method=chacha20-ietf-poly1305, password=k1dBOmOB4oqi7Ump37a1bQ, udp-relay=false
+Netherlands SS 16 = ss, 82.38.31.210, 8080, encrypt-method=chacha20-ietf-poly1305, password=k1dBOmOB4oqi7Ump37a1bQ, udp-relay=false
+Netherlands SS 17 = ss, 82.38.31.214, 8080, encrypt-method=chacha20-ietf-poly1305, password=k1dBOmOB4oqi7Ump37a1bQ, udp-relay=false
+Netherlands SS 18 = ss, 193.29.139.141, 8080, encrypt-method=chacha20-ietf-poly1305, password=oZIoA69Q8yhcQV8ka3Pa3A, udp-relay=false
+Netherlands SS 19 = ss, 193.29.139.151, 8080, encrypt-method=chacha20-ietf-poly1305, password=oZIoA69Q8yhcQV8ka3Pa3A, udp-relay=false
+Netherlands SS 20 = ss, 193.29.139.152, 8080, encrypt-method=chacha20-ietf-poly1305, password=oZIoA69Q8yhcQV8ka3Pa3A, udp-relay=false
+Netherlands SS 21 = ss, 193.29.139.204, 8080, encrypt-method=chacha20-ietf-poly1305, password=oZIoA69Q8yhcQV8ka3Pa3A, udp-relay=false
+Netherlands SS 22 = ss, 193.29.139.251, 8080, encrypt-method=chacha20-ietf-poly1305, password=oZIoA69Q8yhcQV8ka3Pa3A, udp-relay=false
+Netherlands SS 23 = ss, 82.38.31.101, 8080, encrypt-method=chacha20-ietf-poly1305, password=oZIoA69Q8yhcQV8ka3Pa3A, udp-relay=false
+Netherlands SS 24 = ss, 82.38.31.35, 8080, encrypt-method=chacha20-ietf-poly1305, password=oZIoA69Q8yhcQV8ka3Pa3A, udp-relay=false
+Netherlands SS 25 = ss, 82.38.31.124, 8080, encrypt-method=chacha20-ietf-poly1305, password=oZIoA69Q8yhcQV8ka3Pa3A, udp-relay=false
+Netherlands SS 26 = ss, 82.38.31.82, 8080, encrypt-method=chacha20-ietf-poly1305, password=oZIoA69Q8yhcQV8ka3Pa3A, udp-relay=false
+Netherlands SS 27 = ss, 82.38.31.99, 8080, encrypt-method=chacha20-ietf-poly1305, password=oZIoA69Q8yhcQV8ka3Pa3A, udp-relay=false
+Netherlands SS 28 = ss, 82.38.31.61, 8080, encrypt-method=chacha20-ietf-poly1305, password=oZIoA69Q8yhcQV8ka3Pa3A, udp-relay=false
+Netherlands TROJAN 29 = trojan, 104.18.11.110, 443, password=humanity, ws=true, ws-path=/assignment, ws-headers=Host:www.multiplydose.com, tls=true, sni=www.multiplydose.com
+Netherlands TROJAN 30 = trojan, 162.159.17.189, 443, password=humanity, ws=true, ws-path=/assignment, ws-headers=Host:www.multiplydose.com, tls=true, sni=www.multiplydose.com, skip-cert-verify=true
+Netherlands TROJAN 31 = trojan, 172.67.180.92, 443, password=humanity, ws=true, ws-path=/assignment, ws-headers=Host:www.multiplydose.com, tls=true, sni=www.multiplydose.com
+Netherlands TROJAN 32 = trojan, www.multiplydose.com, 443, password=humanity, ws=true, ws-path=//assignment, ws-headers=Host:www.multiplydose.com, tls=true, sni=www.multiplydose.com, skip-cert-verify=true
+
+; === Germany ===
+Germany SS 01 = ss, 141.95.106.127, 11201, encrypt-method=chacha20-ietf-poly1305, password=94aae0510188e8c5, udp-relay=false
+Germany SS 02 = ss, 141.95.109.94, 11201, encrypt-method=chacha20-ietf-poly1305, password=10f90af92b6c1a74, udp-relay=false
+Germany SS 03 = ss, 38.60.250.107, 990, encrypt-method=chacha20-ietf-poly1305, password=ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, udp-relay=false
+Germany SS 04 = ss, 57.129.35.242, 11201, encrypt-method=chacha20-ietf-poly1305, password=b2871db02e5f7e2f, udp-relay=false
+Germany SS 05 = ss, 57.129.95.198, 11201, encrypt-method=chacha20-ietf-poly1305, password=d6b0973401858b29, udp-relay=false
+Germany SS 06 = ss, 57.129.95.38, 11201, encrypt-method=chacha20-ietf-poly1305, password=f54cdee10f8b25ce, udp-relay=false
+Germany TROJAN 07 = trojan, 134.122.84.25, 2096, password=1234567890, ws=true, ws-path=/?https%3A%2F%2Ft.me%2FWangCai2=, ws-headers=Host:kfm-bn0.pages.dev, tls=true, sni=kfm-bn0.pages.dev, skip-cert-verify=true
+Germany TROJAN 08 = trojan, 103.228.171.213, 2053, password=1234567890, ws=true, ws-path=/?https%3A%2F%2Ft.me%2FWangCai2=, ws-headers=Host:kfm-bn0.pages.dev, tls=true, sni=kfm-bn0.pages.dev, skip-cert-verify=true
+Germany TROJAN 09 = trojan, 138.124.115.108, 443, password=1234567890, ws=true, ws-path=/?https://t.me/WangCai2, ws-headers=Host:kfm-bn0.pages.dev, tls=true, sni=kfm-bn0.pages.dev
+Germany TROJAN 10 = trojan, 144.31.188.6, 443, password=1234567890, ws=true, ws-path=/?https://t.me/WangCai2, ws-headers=Host:kfm-bn0.pages.dev, tls=true, sni=kfm-bn0.pages.dev
+Germany TROJAN 11 = trojan, 159.195.5.181, 443, password=1234567890, ws=true, ws-path=/?https://t.me/WangCai2, ws-headers=Host:kfm-bn0.pages.dev, tls=true, sni=kfm-bn0.pages.dev
+Germany TROJAN 12 = trojan, 202.61.195.167, 443, password=1234567890, ws=true, ws-path=/?https://t.me/WangCai2, ws-headers=Host:kfm-bn0.pages.dev, tls=true, sni=kfm-bn0.pages.dev
+Germany TROJAN 13 = trojan, 185.219.84.221, 443, password=1234567890, ws=true, ws-path=/?https://t.me/WangCai2, ws-headers=Host:kfm-bn0.pages.dev, tls=true, sni=kfm-bn0.pages.dev
+Germany SS 14 = ss, 8.209.74.72, 20001, encrypt-method=chacha20-ietf-poly1305, password=PWpjPo3tqhPN4yRZ, udp-relay=false
+Germany SS 15 = ss, 46.101.196.138, 23243, encrypt-method=chacha20-ietf-poly1305, password=Q7cjiVD0oKNE2o9sUnZKQg, udp-relay=false
+
+; === France ===
+France SS 01 = ss, 57.130.28.148, 11201, encrypt-method=chacha20-ietf-poly1305, password=74918bc801d53a4b, udp-relay=false
+France TROJAN 02 = trojan, 104.17.150.76, 443, password=humanity, ws=true, ws-path=/assignment, ws-headers=Host:www.calmloud.com, tls=true, sni=www.calmloud.com
+France TROJAN 03 = trojan, 172.64.147.24, 443, password=humanity, ws=true, ws-path=/assignment, ws-headers=Host:www.gossipglove.com, tls=true, sni=www.gossipglove.com, skip-cert-verify=true
+France TROJAN 04 = trojan, 104.18.13.149, 443, password=humanity, ws=true, ws-path=/assignment, ws-headers=Host:www.ignitelimit.com, tls=true, sni=www.ignitelimit.com, skip-cert-verify=true
+France TROJAN 05 = trojan, 104.18.32.37, 443, password=humanity, ws=true, ws-path=/assignment, tls=true, sni=www.gossipglove.com, skip-cert-verify=true
+France TROJAN 06 = trojan, 104.18.32.47, 443, password=humanity, ws=true, ws-path=/assignment, ws-headers=Host:www.gossipglove.com, tls=true, sni=www.gossipglove.com, skip-cert-verify=true
+France TROJAN 07 = trojan, 104.21.40.34, 443, password=humanity, ws=true, ws-path=/assignment, ws-headers=Host:www.gossipglove.com, tls=true, sni=www.gossipglove.com, skip-cert-verify=true
+France TROJAN 08 = trojan, chatgpt.com, 443, password=humanity, ws=true, ws-path=/assignment, ws-headers=Host:www.gossipglove.com, tls=true, sni=www.gossipglove.com, skip-cert-verify=true
+France TROJAN 09 = trojan, v3.dabache.top, 443, password=humanity, ws=true, ws-path=/assignment, ws-headers=Host:www.gossipglove.com, tls=true, sni=www.gossipglove.com, skip-cert-verify=true
+France TROJAN 10 = trojan, www.gossipglove.com, 443, password=humanity, ws=true, ws-path=/assignment, tls=true, sni=www.gossipglove.com, skip-cert-verify=true
+France TROJAN 11 = trojan, 172.64.152.23, 443, password=humanity, ws=true, ws-path=/assignment, ws-headers=Host:www.calmlunch.com, tls=true, sni=www.calmlunch.com, skip-cert-verify=true
+France TROJAN 12 = trojan, www.calmlunch.com, 443, password=humanity, ws=true, ws-path=/assignment, ws-headers=Host:www.calmlunch.com, tls=true, sni=www.calmlunch.com, skip-cert-verify=true
+France TROJAN 13 = trojan, 8.6.112.0, 443, password=humanity, ws=true, ws-path=/assignment, ws-headers=Host:www.calmloud.com, tls=true, sni=www.calmloud.com, skip-cert-verify=true
+France VMESS 14 = vmess, 94.232.247.165, 45653, username=9e91d19a-c73f-4276-adbc-b337c374259c, vmess-aead=true
+
+; === UK ===
+UK SS 01 = ss, admin.c1.havij.co, 443, encrypt-method=chacha20-ietf-poly1305, password=1kVr0KATIJI7mwOF, udp-relay=false
+UK SS 02 = ss, 138.68.153.223, 46576, encrypt-method=chacha20-ietf-poly1305, password=idMvoewrSyLLvEvP03k9zR, udp-relay=false
+UK SS 03 = ss, 141.98.101.182, 443, encrypt-method=aes-128-gcm, password=shadowsocks, udp-relay=false
+UK SS 04 = ss, 149.102.132.186, 80, encrypt-method=aes-256-gcm, password=YhzqOeJsfuZ9rkkc, udp-relay=false
+UK SS 05 = ss, 149.102.149.207, 443, encrypt-method=aes-256-gcm, password=umWwoQJEJGf74SLe, udp-relay=false
+UK SS 06 = ss, admin.c1.webramz.co, 443, encrypt-method=chacha20-ietf-poly1305, password=W74XFALLLuw6m5IA, udp-relay=false
+UK SS 07 = ss, series-a2.samanehha.co, 443, encrypt-method=chacha20-ietf-poly1305, password=W74XFALLLuw6m5IA, udp-relay=false
+UK SS 08 = ss, series-a1.samanehha.co, 443, encrypt-method=chacha20-ietf-poly1305, password=W74XFALLLuw6m5IA, udp-relay=false
+
 [Proxy Group]
-AdBlock = select, Ad-GIF, Ad-Block, Ad-Pass
-Proxy = select, Auto, Scene, Speed, Warp+, no-alert=0, hidden=0
-Scene = ssid, default = Auto, cellular = Speed, "SSIDNAME" = Auto
-Auto = smart, Snell, Proxy01, Proxy02, Proxy03, Proxy04
-#Auto = fallback, Proxy01,Proxy02,Proxy03,Proxy04, timeout=0, interval=0
-Games = url-test, Proxy04,timeout=0, interval=0, tolerance=0
-Speed = url-test, Proxy01,Proxy02,Proxy03,Snell,Warp+
-Balance = load-balance, Proxy01,Proxy02,Proxy03,Proxy04, persistent=1
+All Proxies = select, Singapore SS 01, Singapore SS 02, Japan SS 01, Japan SS 02, Japan TROJAN 03, US SS 01, US SS 02, US SS 03, US SS 04, US SS 05, US SS 06, US TROJAN 07, US TROJAN 08, US TROJAN 09, US TROJAN 10, US VMESS 11, US VMESS 12, US VMESS 13, Netherlands SS 01, Netherlands SS 02, Netherlands SS 03, Netherlands SS 04, Netherlands SS 05, Netherlands SS 06, Netherlands SS 07, Netherlands SS 08, Netherlands SS 09, Netherlands SS 10, Netherlands SS 11, Netherlands SS 12, Netherlands SS 13, Netherlands SS 14, Netherlands SS 15, Netherlands SS 16, Netherlands SS 17, Netherlands SS 18, Netherlands SS 19, Netherlands SS 20, Netherlands SS 21, Netherlands SS 22, Netherlands SS 23, Netherlands SS 24, Netherlands SS 25, Netherlands SS 26, Netherlands SS 27, Netherlands SS 28, Netherlands TROJAN 29, Netherlands TROJAN 30, Netherlands TROJAN 31, Netherlands TROJAN 32, Germany SS 01, Germany SS 02, Germany SS 03, Germany SS 04, Germany SS 05, Germany SS 06, Germany TROJAN 07, Germany TROJAN 08, Germany TROJAN 09, Germany TROJAN 10, Germany TROJAN 11, Germany TROJAN 12, Germany TROJAN 13, Germany SS 14, Germany SS 15, France SS 01, France TROJAN 02, France TROJAN 03, France TROJAN 04, France TROJAN 05, France TROJAN 06, France TROJAN 07, France TROJAN 08, France TROJAN 09, France TROJAN 10, France TROJAN 11, France TROJAN 12, France TROJAN 13, France VMESS 14, UK SS 01, UK SS 02, UK SS 03, UK SS 04, UK SS 05, UK SS 06, UK SS 07, UK SS 08
+Singapore = select, Singapore SS 01, Singapore SS 02
+Japan = select, Japan SS 01, Japan SS 02, Japan TROJAN 03
+US = select, US SS 01, US SS 02, US SS 03, US SS 04, US SS 05, US SS 06, US TROJAN 07, US TROJAN 08, US TROJAN 09, US TROJAN 10, US VMESS 11, US VMESS 12, US VMESS 13
+Netherlands = select, Netherlands SS 01, Netherlands SS 02, Netherlands SS 03, Netherlands SS 04, Netherlands SS 05, Netherlands SS 06, Netherlands SS 07, Netherlands SS 08, Netherlands SS 09, Netherlands SS 10, Netherlands SS 11, Netherlands SS 12, Netherlands SS 13, Netherlands SS 14, Netherlands SS 15, Netherlands SS 16, Netherlands SS 17, Netherlands SS 18, Netherlands SS 19, Netherlands SS 20, Netherlands SS 21, Netherlands SS 22, Netherlands SS 23, Netherlands SS 24, Netherlands SS 25, Netherlands SS 26, Netherlands SS 27, Netherlands SS 28, Netherlands TROJAN 29, Netherlands TROJAN 30, Netherlands TROJAN 31, Netherlands TROJAN 32
+Germany = select, Germany SS 01, Germany SS 02, Germany SS 03, Germany SS 04, Germany SS 05, Germany SS 06, Germany TROJAN 07, Germany TROJAN 08, Germany TROJAN 09, Germany TROJAN 10, Germany TROJAN 11, Germany TROJAN 12, Germany TROJAN 13, Germany SS 14, Germany SS 15
+France = select, France SS 01, France TROJAN 02, France TROJAN 03, France TROJAN 04, France TROJAN 05, France TROJAN 06, France TROJAN 07, France TROJAN 08, France TROJAN 09, France TROJAN 10, France TROJAN 11, France TROJAN 12, France TROJAN 13, France VMESS 14
+UK = select, UK SS 01, UK SS 02, UK SS 03, UK SS 04, UK SS 05, UK SS 06, UK SS 07, UK SS 08
 
 [Rule]
 IP-CIDR,123.125.102.213/32,REJECT-DROP,pre-matching,no-resolve // 根据请求查看器抓取到的米家app IP 修改成自己的
